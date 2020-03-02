@@ -1,0 +1,3 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mMainTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mcom.exercise.two.MainTest *** ABORTED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.NullPointerException was thrown inside describe("Exercise 2"), construction cannot continue: null (MainTest.scala:7)[0m[0m

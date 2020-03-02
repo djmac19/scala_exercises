@@ -1,8 +1,9 @@
 package com.exercise.two
 
 import org.scalatest.funspec.AnyFunSpec
+import com.exercise.two.Main._
 
-class MainTest extends AnyFunSpec {
+object MainTest extends AnyFunSpec {
   describe("Exercise 2") {
     val account1 = Account(1,"BusyPeopleInc",0)
     val invoice1 = AccountInvoice(account1)

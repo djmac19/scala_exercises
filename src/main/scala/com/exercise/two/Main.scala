@@ -1,6 +1,6 @@
 package com.exercise.two
 
-class Main extends App {
+object Main extends App {
 
   case class RoomPrice(roomTypeId: Int, cost: Double)
   case class Person(personId: Int, firstName:String, surname:String )
