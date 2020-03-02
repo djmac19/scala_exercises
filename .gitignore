@@ -1,0 +1,12 @@
+*.class
+*.pem
+.idea/
+*.iws
+*.iml
+/out/
+target
+.DS_Store
+.bloop
+.metals
+*.jar
+.vagrant
