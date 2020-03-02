@@ -1,0 +1,17 @@
+[0m[[0m[0mdebug[0m] [0m[0mAcquiring lock on file /Users/daniel.james.mcentee/Documents/scala_exercises/project/target/.sbt-compilation-infos/scala_exercises-test/.sbt-idea-lock ...[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/daniel.james.mcentee/Documents/scala_exercises/src/test/scala/com/exercise/two/Test.scala:4:25: object Main is not a member of package com.exercise.two[0m
+[0m[[0m[31merror[0m] [0m[0mnote: class Main exists, but it has no companion object.[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.exercise.two.Main.Account[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/daniel.james.mcentee/Documents/scala_exercises/src/test/scala/com/exercise/two/Test.scala:5:25: object Main is not a member of package com.exercise.two[0m
+[0m[[0m[31merror[0m] [0m[0mnote: class Main exists, but it has no companion object.[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.exercise.two.Main.AccountInvoice[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/daniel.james.mcentee/Documents/scala_exercises/src/test/scala/com/exercise/two/Test.scala:9:20: not found: value Account[0m
+[0m[[0m[31merror[0m] [0m[0m    val account1 = Account(1,"BusyPeopleInc",0)[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/daniel.james.mcentee/Documents/scala_exercises/src/test/scala/com/exercise/two/Test.scala:10:20: not found: value AccountInvoice[0m
+[0m[[0m[31merror[0m] [0m[0m    val invoice1 = AccountInvoice(account1)[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mReleasing lock on file /Users/daniel.james.mcentee/Documents/scala_exercises/project/target/.sbt-compilation-infos/scala_exercises-test/.sbt-idea-lock.[0m
