@@ -1,21 +1,52 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testsuite hostname="wejoM-2271.local" name="com.exercise.two.MainTest" tests="1" errors="1" failures="0" skipped="0" time="0.014" timestamp="2020-03-02T15:42:14">
+<testsuite hostname="wejoM-2271.local" name="com.exercise.two.MainTest" tests="1" errors="0" failures="1" skipped="0" time="0.008" timestamp="2020-03-03T09:13:40">
                      <properties>
       <property name="jline.esc.timeout" value="0"/><property name="jna.platform.library.path" value="/usr/lib:/usr/lib"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib"/><property name="java.vm.version" value="25.221-b11"/><property name="gopherProxySet" value="false"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=":"/><property name="jna.loaded" value="true"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="GB"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value="unknown"/><property name="jna.nosys" value="true"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="/Users/daniel.james.mcentee/Documents/scala_exercises"/><property name="java.runtime.version" value="1.8.0_221-b11"/><property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/><property name="idea.managed" value="true"/><property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/endorsed"/><property name="os.arch" value="x86_64"/><property name="java.io.tmpdir" value="/var/folders/s0/z1zd51gx7f5fd8l64c4mrtt40000gp/T/"/><property name="line.separator" value="
-"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="log4j.ignoreTCL" value="true"/><property name="os.name" value="Mac OS X"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/var/folders/s0/z1zd51gx7f5fd8l64c4mrtt40000gp/T/jna-1592894012/jna987801386637111191.tmp"/><property name="java.library.path" value="/Users/daniel.james.mcentee/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="10.15.3"/><property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="swoval.tmpdir" value="/Users/daniel.james.mcentee/.sbt/1.0"/><property name="user.home" value="/Users/daniel.james.mcentee"/><property name="user.timezone" value="Europe/London"/><property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.8"/><property name="java.class.path" value="/Users/daniel.james.mcentee/Library/Application Support/IdeaIC2019.3/Scala/launcher/sbt-launch.jar"/><property name="user.name" value="daniel.james.mcentee"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="/Users/daniel.james.mcentee/Library/Application Support/IdeaIC2019.3/Scala/launcher/sbt-launch.jar early(addPluginSbtFile=&quot;&quot;&quot;/private/var/folders/s0/z1zd51gx7f5fd8l64c4mrtt40000gp/T/idea.sbt&quot;&quot;&quot;) ; set ideaPort in Global := 59253 ; idea-shell"/><property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_221"/><property name="java.ext.dirs" value="/Users/daniel.james.mcentee/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/><property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="file.separator" value="/"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sbt.supershell" value="false"/><property name="sun.io.unicode.encoding" value="UnicodeBig"/><property name="sun.cpu.endian" value="little"/><property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="sun.cpu.isalist" value=""/>
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="log4j.ignoreTCL" value="true"/><property name="os.name" value="Mac OS X"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/var/folders/s0/z1zd51gx7f5fd8l64c4mrtt40000gp/T/jna-1592894012/jna6836116610382300928.tmp"/><property name="java.library.path" value="/Users/daniel.james.mcentee/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="10.15.3"/><property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="swoval.tmpdir" value="/Users/daniel.james.mcentee/.sbt/1.0"/><property name="user.home" value="/Users/daniel.james.mcentee"/><property name="user.timezone" value="Europe/London"/><property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.8"/><property name="java.class.path" value="/Users/daniel.james.mcentee/Library/Application Support/IdeaIC2019.3/Scala/launcher/sbt-launch.jar"/><property name="user.name" value="daniel.james.mcentee"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="/Users/daniel.james.mcentee/Library/Application Support/IdeaIC2019.3/Scala/launcher/sbt-launch.jar early(addPluginSbtFile=&quot;&quot;&quot;/private/var/folders/s0/z1zd51gx7f5fd8l64c4mrtt40000gp/T/idea.sbt&quot;&quot;&quot;) ; set ideaPort in Global := 50902 ; idea-shell"/><property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_221"/><property name="java.ext.dirs" value="/Users/daniel.james.mcentee/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/><property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="file.separator" value="/"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sbt.supershell" value="false"/><property name="sun.io.unicode.encoding" value="UnicodeBig"/><property name="sun.cpu.endian" value="little"/><property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="sun.cpu.isalist" value=""/>
     </properties>
-                     <testcase classname="com.exercise.two.MainTest" name="(It is not a test it is a sbt.testing.SuiteSelector)" time="0.014">
-                                                 <error message="java.lang.NullPointerException was thrown inside describe(&quot;Exercise 2&quot;), construction cannot continue: null" type="org.scalatest.exceptions.NotAllowedException">org.scalatest.exceptions.NotAllowedException: java.lang.NullPointerException was thrown inside describe(&quot;Exercise 2&quot;), construction cannot continue: null
-	at org.scalatest.funspec.AnyFunSpecLike.describe(AnyFunSpecLike.scala:390)
-	at org.scalatest.funspec.AnyFunSpecLike.describe$(AnyFunSpecLike.scala:378)
-	at org.scalatest.funspec.AnyFunSpec.describe(AnyFunSpec.scala:1631)
-	at com.exercise.two.MainTest.&lt;init&gt;(MainTest.scala:7)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at java.lang.Class.newInstance(Class.java:442)
-	at org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:450)
+                     <testcase classname="com.exercise.two.MainTest" name="Exercise 2 should return correct room cost" time="0.008">
+                                                 <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.exercise.two.Main$AccountInvoice.accountBookings(Main.scala:43)
+	at com.exercise.two.Main$AccountInvoice.roomCost(Main.scala:47)
+	at com.exercise.two.MainTest.$anonfun$new$2(MainTest.scala:12)
+	at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+	at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)
+	at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+	at org.scalatest.Transformer.apply(Transformer.scala:22)
+	at org.scalatest.Transformer.apply(Transformer.scala:20)
+	at org.scalatest.funspec.AnyFunSpecLike$$anon$1.apply(AnyFunSpecLike.scala:456)
+	at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)
+	at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)
+	at org.scalatest.funspec.AnyFunSpec.withFixture(AnyFunSpec.scala:1631)
+	at org.scalatest.funspec.AnyFunSpecLike.invokeWithFixture$1(AnyFunSpecLike.scala:454)
+	at org.scalatest.funspec.AnyFunSpecLike.$anonfun$runTest$1(AnyFunSpecLike.scala:466)
+	at org.scalatest.SuperEngine.runTestImpl(Engine.scala:306)
+	at org.scalatest.funspec.AnyFunSpecLike.runTest(AnyFunSpecLike.scala:466)
+	at org.scalatest.funspec.AnyFunSpecLike.runTest$(AnyFunSpecLike.scala:448)
+	at org.scalatest.funspec.AnyFunSpec.runTest(AnyFunSpec.scala:1631)
+	at org.scalatest.funspec.AnyFunSpecLike.$anonfun$runTests$1(AnyFunSpecLike.scala:499)
+	at org.scalatest.SuperEngine.$anonfun$runTestsInBranch$1(Engine.scala:413)
+	at scala.collection.immutable.List.foreach(List.scala:305)
+	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:401)
+	at org.scalatest.SuperEngine.runTestsInBranch(Engine.scala:390)
+	at org.scalatest.SuperEngine.$anonfun$runTestsInBranch$1(Engine.scala:427)
+	at scala.collection.immutable.List.foreach(List.scala:305)
+	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:401)
+	at org.scalatest.SuperEngine.runTestsInBranch(Engine.scala:396)
+	at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:475)
+	at org.scalatest.funspec.AnyFunSpecLike.runTests(AnyFunSpecLike.scala:499)
+	at org.scalatest.funspec.AnyFunSpecLike.runTests$(AnyFunSpecLike.scala:498)
+	at org.scalatest.funspec.AnyFunSpec.runTests(AnyFunSpec.scala:1631)
+	at org.scalatest.Suite.run(Suite.scala:1112)
+	at org.scalatest.Suite.run$(Suite.scala:1094)
+	at org.scalatest.funspec.AnyFunSpec.org$scalatest$funspec$AnyFunSpecLike$$super$run(AnyFunSpec.scala:1631)
+	at org.scalatest.funspec.AnyFunSpecLike.$anonfun$run$1(AnyFunSpecLike.scala:503)
+	at org.scalatest.SuperEngine.runImpl(Engine.scala:535)
+	at org.scalatest.funspec.AnyFunSpecLike.run(AnyFunSpecLike.scala:503)
+	at org.scalatest.funspec.AnyFunSpecLike.run$(AnyFunSpecLike.scala:502)
+	at org.scalatest.funspec.AnyFunSpec.run(AnyFunSpec.scala:1631)
+	at org.scalatest.tools.Framework.org$scalatest$tools$Framework$$runSuite(Framework.scala:318)
+	at org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:513)
 	at sbt.TestRunner.runTest$1(TestFramework.scala:139)
 	at sbt.TestRunner.run(TestFramework.scala:154)
 	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.$anonfun$apply$1(TestFramework.scala:317)
@@ -38,13 +69,7 @@
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.NullPointerException
-	at com.exercise.two.Main$AccountInvoice.&lt;init&gt;(Main.scala:43)
-	at com.exercise.two.MainTest.$anonfun$new$1(MainTest.scala:9)
-	at org.scalatest.SuperEngine.registerNestedBranch(Engine.scala:609)
-	at org.scalatest.funspec.AnyFunSpecLike.describe(AnyFunSpecLike.scala:384)
-	... 31 more
-</error>
+</failure>
                                                </testcase>
                      <system-out><![CDATA[]]></system-out>
                      <system-err><![CDATA[]]></system-err>

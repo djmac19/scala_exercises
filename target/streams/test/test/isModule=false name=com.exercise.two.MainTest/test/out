@@ -1,3 +1,15 @@
 [0m[[0m[0minfo[0m] [0m[0m[32mMainTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31mcom.exercise.two.MainTest *** ABORTED ***[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.NullPointerException was thrown inside describe("Exercise 2"), construction cannot continue: null (MainTest.scala:7)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mExercise 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should return correct room cost *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.NullPointerException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.exercise.two.Main$AccountInvoice.accountBookings(Main.scala:43)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.exercise.two.Main$AccountInvoice.roomCost(Main.scala:47)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.exercise.two.MainTest.$anonfun$new$2(MainTest.scala:12)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funspec.AnyFunSpecLike$$anon$1.apply(AnyFunSpecLike.scala:456)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
