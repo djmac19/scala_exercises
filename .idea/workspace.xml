@@ -3,29 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bc3aadec-0866-490d-a27c-c02bbdd951db" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/scala_exercises-compile/compilation-info-327a7502-5f47-4e41-ae79-c5d7173c7893" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/scala_exercises-compile/compilation-info-4566b434-c57d-49c7-b125-f28f26ae523d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/scala_exercises-compile/compilation-info-6926abea-a6de-41cd-9183-362f51311769" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/scala_exercises-compile/compilation-info-81669844-1aa0-4b04-9270-9f85ee69400a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/scala_exercises-compile/compilation-info-d4fef324-48d8-43aa-9cee-e9eaa2818221" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/scala_exercises-test/compilation-info-0783f029-7dba-470c-9443-df1dfa4d52e6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/scala_exercises-test/compilation-info-526d33eb-3d87-4f1e-b57c-587925f86a8a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/scala_exercises-test/compilation-info-68cd30c7-5b17-4733-911d-6b5ecfe0c7d5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/scala_exercises-test/compilation-info-d057baa5-2405-4dda-b639-efbbabe358a3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/scala_exercises-test/compilation-info-e168d612-5229-45b9-8167-3ead9bcce55a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/scala_exercises-test/compilation-info-eaf1594b-eddf-4b87-8427-3a728cafd8cb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/exercise/two/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/exercise/two/Main.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/scala/com/exercise/two/MainTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/com/exercise/two/MainTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/com/exercise/two/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/com/exercise/two/MainTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/testListeners/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/testListeners/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/_global/_global/compileSourceFileInputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/_global/_global/compileSourceFileInputs/previous" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncSetup/_global/streams/inc_compile_2.13.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncSetup/_global/streams/inc_compile_2.13.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/definedTests/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/definedTests/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/test/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/test/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/test/_global/streams/succeeded_tests" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/test/_global/streams/succeeded_tests" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/test/isModule=false name=com.exercise.two.MainTest/test/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/test/isModule=false name=com.exercise.two.MainTest/test/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-reports/TEST-com.exercise.two.MainTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-reports/TEST-com.exercise.two.MainTest.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -52,35 +52,42 @@ class MainTest extends AnyWordSpec {
       actual shouldBe expect
     }
 
-    "filterBookingsByAccountId returns empty list for given account id" in {
+    "filterBookingsByAccountId returns empty list for non-existent account id" in {
       val actual = filterBookingsByAccountId(bookingList, 3)
       val expect = List()
       actual shouldBe expect
     }
 
-    "lookupRoomPrice returns correct room price" in {
+    "lookupRoomPrice returns correct price for given room type id" in {
       val actual = lookupRoomPrice(roomPriceList, 1)
       actual shouldBe 100
     }
 
-    "calculateRoomCost returns correct room cost" in {
+    "calculateRoomCost returns 0 given empty list" in {
+      val testBookingList = List()
+      val actual = calculateRoomCost(testBookingList, roomPriceList)
+      actual shouldBe 0
+    }
+
+    "calculateRoomCost returns correct room cost for given booking" in {
       val testBookingList = List(booking1)
       val actual = calculateRoomCost(testBookingList, roomPriceList)
       actual shouldBe 100
     }
 
-    "calculateRoomCost returns correct room cost for multiple bookings" in {
-      val testBookingList = List(booking1, booking2)
+    "calculateRoomCost returns correct total room cost given list of bookings" in {
+      val testBookingList = List(booking1, booking2, booking3)
       val actual = calculateRoomCost(testBookingList, roomPriceList)
-      actual shouldBe 200
+      actual shouldBe 400
     }
 
-    "filterChargesByBookingId returns empty list for a given booking id with no room service charges" in {
+    "filterChargesByBookingId returns empty list for given booking id with no room service charges" in {
       val actual = filterChargesByBookingId(roomServiceList, 1)
-      actual shouldBe List()
+      val expect = List()
+      actual shouldBe expect
     }
 
-    "filterChargesByBookingId returns list of charges for a given booking id with room service charges" in {
+    "filterChargesByBookingId returns list of charges for given booking id with room service charges" in {
       val actual = filterChargesByBookingId(roomServiceList, 4)
       val expect = roomServiceList
       actual shouldBe expect
@@ -94,27 +101,28 @@ class MainTest extends AnyWordSpec {
       actual shouldBe expect
     }
 
-    "collateAccountCharges returns empty list given an empty list" in {
-      val actual = collateAccountCharges(List(), roomServiceList)
+    "collateAccountCharges returns empty list given empty list" in {
+      val testBookingList = List()
+      val actual = collateAccountCharges(testBookingList, roomServiceList)
       val expect = List()
       actual shouldBe expect
     }
 
-    "collateAccountCharges returns empty list given a list of bookings with no room service charges" in {
+    "collateAccountCharges returns empty list given list of bookings with no room service charges" in {
       val testBookingList = List(booking1, booking2, booking3)
       val actual = collateAccountCharges(testBookingList, roomServiceList)
       val expect = List()
       actual shouldBe expect
     }
 
-    "collateAccountCharges returns list of charges given a booking with room service charges" in {
-      val testBookingList = List(booking4)
+    "collateAccountCharges returns list of charges given list of bookings where one has room service charges" in {
+      val testBookingList = List(booking4, booking5)
       val actual = collateAccountCharges(testBookingList, roomServiceList)
       val expect = roomServiceList
       actual shouldBe expect
     }
 
-    "collateAccountCharges collates a list of charges given a list of multiple bookings with room service charges" in {
+    "collateAccountCharges collates list of charges given list of bookings where more than one has room service charges" in {
       val testBooking = Booking(6,1,1, "12",1, "10/10/2020", 1 )
       val testVodka = RoomServiceCharges(6,"bottle of vodka", 20.10, "04/10/2020")
       val testBeer = RoomServiceCharges(7,"beer", 3.75, "01/10/2020")
@@ -125,28 +133,29 @@ class MainTest extends AnyWordSpec {
       actual shouldBe expect
     }
 
-    "calculateRoomServiceTotal returns 0 given an empty list" in {
-      val actual = calculateRoomServiceTotal(List())
+    "calculateRoomServiceTotal returns 0 given empty list" in {
+      val testRoomServiceList = List()
+      val actual = calculateRoomServiceTotal(testRoomServiceList)
       actual shouldBe 0
     }
 
-    "calculateRoomServiceTotal returns correct total given a list of room service charges" in {
+    "calculateRoomServiceTotal returns correct total given list of room service charges" in {
       val actual = calculateRoomServiceTotal(roomServiceList)
       actual shouldBe 51.45
     }
 
-    "produceInvoice returns an AccountInvoice object" in {
+    "produceInvoice returns AccountInvoice object" in {
       val actual = produceInvoice(account1, bookingList, roomPriceList, roomServiceList)
       actual shouldBe a [AccountInvoice]
     }
 
-    "produceInvoice returns an AccountInvoice with correct total for account1" in {
+    "produceInvoice returns AccountInvoice with correct total for account1" in {
       val invoice1 = produceInvoice(account1, bookingList, roomPriceList, roomServiceList)
       val actual = invoice1.total
       actual shouldBe 400
     }
 
-    "produceInvoice returns an AccountInvoice with correct total for account2" in {
+    "produceInvoice returns AccountInvoice with correct total for account2" in {
       val invoice2 = produceInvoice(account2, bookingList, roomPriceList, roomServiceList)
       val actual = invoice2.total
       actual shouldBe 901.45
