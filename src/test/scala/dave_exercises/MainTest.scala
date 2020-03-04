@@ -1,8 +1,8 @@
-package com.exercise.two
+package dave_exercises
 
 import org.scalatest.wordspec.AnyWordSpec
 import org.scalatest.matchers.should.Matchers._
-import com.exercise.two.Main._
+import dave_exercises.Main._
 
 class MainTest extends AnyWordSpec {
 
