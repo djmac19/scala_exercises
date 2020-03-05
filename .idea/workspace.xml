@@ -2,47 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc3aadec-0866-490d-a27c-c02bbdd951db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/worksheets/exercise_2.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/scala_exercises.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/scala_exercises.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/exercise/two/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/dave_exercises/Main.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/exercise_1.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/worksheets/exercise_1.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/exercise_2.sc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/hello_world.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/worksheets/hello_world.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/com/exercise/two/MainTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/dave_exercises/MainTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/exercise/two/Main$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/exercise/two/Main$Account$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/exercise/two/Main$Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/exercise/two/Main$AccountInvoice$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/exercise/two/Main$AccountInvoice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/exercise/two/Main$Booking$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/exercise/two/Main$Booking.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/exercise/two/Main$Person$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/exercise/two/Main$Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/exercise/two/Main$RoomPrice$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/exercise/two/Main$RoomPrice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/exercise/two/Main$RoomServiceCharges$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/exercise/two/Main$RoomServiceCharges.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/exercise/two/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/com/exercise/two/MainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/checkBuildSources/_global/inputFileStamps/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/_global/checkBuildSources/_global/inputFileStamps/previous" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/input_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/accounts.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/accounts.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/bookings.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bookings.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/charges.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/charges.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/people.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/people.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/rooms.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/rooms.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/dave_exercises/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/dave_exercises/Main.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/worksheets/read_csv.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/worksheets/read_csv.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/worksheets/write_csv.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/worksheets/write_csv.sc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +73,7 @@
       <recent name="groovy.util.GroovyTestCase" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main" />
       <recent name="$PROJECT_DIR$/src/main/scala/worksheets" />
     </key>
   </component>
@@ -161,6 +132,7 @@
     </option>
     <option name="modificationStamps">
       <map>
+        <entry key="$PROJECT_DIR$" value="3165869469268" />
         <entry key="$PROJECT_DIR$/build.sbt" value="3229144786" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="1244562550" />
       </map>
@@ -195,15 +167,19 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="578" y="299" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1583313777526">
+    <state x="578" y="299" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1583410398045">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="578" y="299" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1583313646708" />
-    <state x="578" y="299" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/1680.23.2560.1417/0.0.1680.1050@0.0.1680.1050" timestamp="1583313777526" />
+    <state x="578" y="299" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1583410398045" />
+    <state x="578" y="299" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/1680.23.2560.1417/0.0.1680.1050@0.0.1680.1050" timestamp="1583404248704" />
     <state x="558" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583311647712">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="558" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1583311647712" />
+    <state x="528" y="269" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1583333141211">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="528" y="269" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1583333141211" />
     <state x="604" y="390" width="471" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1583148132905">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -242,6 +218,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="508" y="153" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1582626070382" />
+    <state x="623" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583408564332">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="623" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1680.23.2560.1417/0.0.1680.1050@0.0.1680.1050" timestamp="1583408564332" />
     <state x="217" y="253" key="new project wizard" timestamp="1583141870066">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

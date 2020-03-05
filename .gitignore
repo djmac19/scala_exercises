@@ -10,3 +10,4 @@ target
 .metals
 *.jar
 .vagrant
+alex.sc
