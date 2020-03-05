@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="bc3aadec-0866-490d-a27c-c02bbdd951db" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/charges.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/charges.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/invoices.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/dave_exercises/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/dave_exercises/Main.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/worksheets/exercise_2.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/worksheets/exercise_2.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/worksheets/write_csv.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/worksheets/write_csv.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/bookings.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bookings.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/invoices.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/invoices.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/dave_exercises/MainTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/dave_exercises/MainTest.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +95,7 @@
       <list>
         <item itemvalue="ScalaTest.MainTest" />
         <item itemvalue="ScalaTest.MainTest" />
+        <item itemvalue="ScalaTest.MainTest" />
       </list>
     </recent_temporary>
   </component>
@@ -179,28 +178,28 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="604" y="390" width="471" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1583148132905" />
-    <state width="1638" height="294" key="GridCell.Tab.0.bottom" timestamp="1583316010461">
+    <state width="1638" height="294" key="GridCell.Tab.0.bottom" timestamp="1583424976315">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="294" key="GridCell.Tab.0.bottom/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1583316010461" />
+    <state width="1638" height="294" key="GridCell.Tab.0.bottom/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1583424976315" />
     <state width="2518" height="423" key="GridCell.Tab.0.bottom/1680.0.2560.1440/0.0.1680.1050@1680.0.2560.1440" timestamp="1583249621661" />
     <state width="2518" height="423" key="GridCell.Tab.0.bottom/1680.0.2560.1440/0.23.1680.1027@1680.0.2560.1440" timestamp="1583252591689" />
-    <state width="1638" height="294" key="GridCell.Tab.0.center" timestamp="1583316010460">
+    <state width="1638" height="294" key="GridCell.Tab.0.center" timestamp="1583424976313">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="294" key="GridCell.Tab.0.center/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1583316010460" />
+    <state width="1638" height="294" key="GridCell.Tab.0.center/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1583424976313" />
     <state width="2518" height="423" key="GridCell.Tab.0.center/1680.0.2560.1440/0.0.1680.1050@1680.0.2560.1440" timestamp="1583249621659" />
     <state width="2518" height="423" key="GridCell.Tab.0.center/1680.0.2560.1440/0.23.1680.1027@1680.0.2560.1440" timestamp="1583252591688" />
-    <state width="1638" height="294" key="GridCell.Tab.0.left" timestamp="1583316010459">
+    <state width="1638" height="294" key="GridCell.Tab.0.left" timestamp="1583424976312">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="294" key="GridCell.Tab.0.left/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1583316010459" />
+    <state width="1638" height="294" key="GridCell.Tab.0.left/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1583424976312" />
     <state width="2518" height="423" key="GridCell.Tab.0.left/1680.0.2560.1440/0.0.1680.1050@1680.0.2560.1440" timestamp="1583249621658" />
     <state width="2518" height="423" key="GridCell.Tab.0.left/1680.0.2560.1440/0.23.1680.1027@1680.0.2560.1440" timestamp="1583252591687" />
-    <state width="1638" height="294" key="GridCell.Tab.0.right" timestamp="1583316010461">
+    <state width="1638" height="294" key="GridCell.Tab.0.right" timestamp="1583424976314">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="294" key="GridCell.Tab.0.right/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1583316010461" />
+    <state width="1638" height="294" key="GridCell.Tab.0.right/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1583424976314" />
     <state width="2518" height="423" key="GridCell.Tab.0.right/1680.0.2560.1440/0.0.1680.1050@1680.0.2560.1440" timestamp="1583249621660" />
     <state width="2518" height="423" key="GridCell.Tab.0.right/1680.0.2560.1440/0.23.1680.1027@1680.0.2560.1440" timestamp="1583252591688" />
     <state x="494" y="359" key="com.intellij.ide.util.TipDialog" timestamp="1583316024714">

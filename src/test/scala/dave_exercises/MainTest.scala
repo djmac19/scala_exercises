@@ -144,20 +144,19 @@ class MainTest extends AnyWordSpec {
       actual shouldBe 51.45
     }
 
-    "produceInvoice returns AccountInvoice object" in {
-      val actual = produceInvoice(account1, bookingList, roomPriceList, roomServiceList)
-      actual shouldBe a [AccountInvoice]
+    "produceInvoice returns list of AccountInvoice objects" in {
+      val actual = produceInvoices()
+      actual shouldBe a [List[_]]
+      actual(0) shouldBe an [AccountInvoice]
     }
 
     "produceInvoice returns AccountInvoice with correct total for account1" in {
-      val invoice1 = produceInvoice(account1, bookingList, roomPriceList, roomServiceList)
-      val actual = invoice1.total
+      val actual = produceInvoices()(0).total
       actual shouldBe 400
     }
 
     "produceInvoice returns AccountInvoice with correct total for account2" in {
-      val invoice2 = produceInvoice(account2, bookingList, roomPriceList, roomServiceList)
-      val actual = invoice2.total
+      val actual = produceInvoices()(1).total
       actual shouldBe 901.45
     }
   }
