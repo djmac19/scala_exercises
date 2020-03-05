@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc3aadec-0866-490d-a27c-c02bbdd951db" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/accounts.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/accounts.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/bookings.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bookings.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/charges.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/charges.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/people.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/people.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/rooms.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/rooms.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/charges.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/charges.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/invoices.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/dave_exercises/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/dave_exercises/Main.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/worksheets/read_csv.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/worksheets/read_csv.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/worksheets/exercise_2.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/worksheets/exercise_2.sc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/worksheets/write_csv.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/worksheets/write_csv.sc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -167,10 +162,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="578" y="299" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1583410398045">
+    <state x="578" y="299" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1583418511424">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="578" y="299" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1583410398045" />
+    <state x="578" y="299" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/1680.0.2560.1440/0.0.1680.1050@0.0.1680.1050" timestamp="1583418511424" />
     <state x="578" y="299" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/1680.23.2560.1417/0.0.1680.1050@0.0.1680.1050" timestamp="1583404248704" />
     <state x="558" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583311647712">
       <screen x="0" y="0" width="1680" height="1050" />

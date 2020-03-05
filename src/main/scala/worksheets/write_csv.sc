@@ -59,7 +59,3 @@ writeCSV(invoiceList)
 
 
 
-
-
-
-

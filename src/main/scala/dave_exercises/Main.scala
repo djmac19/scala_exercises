@@ -16,7 +16,7 @@ object Main extends App {
 
   case class AccountInvoice(account: Account, roomCost: Double, roomServiceTotal: Double, total: Double)
 
-  def filterBookingsByAccountId(bookingList: List[Chargeable], accountId: Int): List[Chargeable] = bookingList.filter(_.accountId == accountId)
+  def filterBookingsByAccountId(bookingList: List[Booking], accountId: Int): List[Booking] = bookingList.filter(_.accountId == accountId)
 
   def lookupRoomPrice(roomPriceList: List[RoomPrice], roomTypeId: Int): Double = roomPriceList.filter(_.roomTypeId == roomTypeId).head.cost
 
@@ -66,10 +66,10 @@ object Main extends App {
 
   def produceInvoices(): List[AccountInvoice] = {
 
-    val accountList: List[Chargeable] = readCSV("accounts")
-    val bookingList: List[Chargeable] = readCSV("bookings")
-    val roomPriceList: List[Chargeable] = readCSV("rooms")
-    val roomServiceList: List[Chargeable] = readCSV("rooms")
+    val accountList: List[Account] = readCSV("accounts").asInstanceOf[List[Account]]
+    val bookingList: List[Booking] = readCSV("bookings").asInstanceOf[List[Booking]]
+    val roomPriceList: List[RoomPrice] = readCSV("rooms").asInstanceOf[List[RoomPrice]]
+    val roomServiceList: List[RoomServiceCharges] = readCSV("charges").asInstanceOf[List[RoomServiceCharges]]
 
     val invoiceList = accountList.map(account => {
       val accountBookings: List[Booking] = filterBookingsByAccountId(bookingList, account.accountId)
